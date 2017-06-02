@@ -1,4 +1,6 @@
 # lowbatterymuch
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/lowbatterymuch.svg)](https://greenkeeper.io/)
 Twitter bot retweet people who post screenshots of their phones with low battery.
 
 The way this works is it literally just downloads the image, runs OCR on the image, and checks if there's a percentage on the first line where the status bar might be. There will be false negatives, but as long as we get some matches, it'll be fine. False positives may happen but are mostly mitigated by watching keywords that are most likely to only have pictures of phone screenshots.
